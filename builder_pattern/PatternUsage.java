@@ -11,7 +11,7 @@ public class PatternUsage {
                 .setGenre("Rock")
                 .build();
 
-        //Making Favorite instance with Builder pattern
+        //Making Customer instance with Builder pattern
         Customer customer = new Customer.Builder()
                 .setName("Tony Stark")
                 .withFavorites(favorite)
